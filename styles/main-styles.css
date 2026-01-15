@@ -113,7 +113,6 @@ body {
     .navbar-container, .nav-links-container {
         flex-direction: column;
     }
-
     .nav-logo-container h1 {
         font-size: 2rem;
         margin: 15px 0;
@@ -129,8 +128,11 @@ body {
         font-size: 2rem;
         line-height: 2.5rem;
     }
+    .hero-text p {
+        margin: 20px 0;
+    }
     .hero-image {
-        padding: 10px 50px;
+        width: 100%;
     }
 }
 
@@ -144,5 +146,12 @@ body {
     }
     .hero-text h2 {
         font-size: 3rem;
+    }
+}
+
+/* other responsive section */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    body {
+        padding: 0 25px;
     }
 }
